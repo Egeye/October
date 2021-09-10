@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>time tool</title>
+    <script src="../dist/vue/vue.js"></script>
+
+    <link href="../dist/element-ui/index.css" rel="stylesheet">
+    <script src="../dist/element-ui/index.js"></script>
+
+    <link href="../styles/timeTool.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="intro">
+<!--    <h1>日期 | 天数</h1>-->
+    <p><i class="zmdi zmdi-dock"></i> Date | Day</p>
+</header>
+<main id="clockApp">
+    <article>
+        <el-form ref="timeToolForm"
+                 :model="timeToolForm" label-width="100px" label-position="left"
+                 style="margin-top: 25px;">
+            <el-form-item label="开始时间">
+                <el-date-picker v-model="timeToolForm.startDate" style="width: 100%;"
+                                align="right" type="date" placeholder="选择开始日期"
+                                @change="handleChangeStartDate">
+                </el-date-picker>
+            </el-form-item>
+
+            <el-form-item label="结束时间">
+                <!--                :picker-options="pickerOptions"-->
+                <el-date-picker v-model="timeToolForm.stopDate" style="width: 100%;"
+                                align="right" type="date" placeholder="选择结束日期"
+                                @change="handleChangeStopDate">
+                </el-date-picker>
+            </el-form-item>
+            <el-form-item label="相差天数">
+                <el-input v-model="timeToolForm.diffDay" readonly placeholder="选择开始时间和结束时间"></el-input>
+            </el-form-item>
+        </el-form>
+
+        <el-divider></el-divider>
+
+        <el-card class="box-card">
+            <el-button @click="handleShowDraw" type="primary">画钟</el-button>
+            <el-button @click="handleShowCalc" type="primary">相隔天数计算</el-button>
+        </el-card>
+
+        <!-- 画钟 弹框-->
+        <el-dialog title="画钟" :visible.sync="visibleConfig.runningTime" :before-close="handleBeforeCloseRT">
+            <div class="dialog-view">
+                <div class="box-circle">
+                    <ul>
+                        <transition name="el-fade-in" v-for="(item,index) in romanNumber" :key="index">
+                            <li :key="index" v-show="item.visible">
+                                {{ item.label }}
+                            </li>
+                        </transition>
+                    </ul>
+                    <canvas id="lineClock" width="400" height="400">
+                    </canvas>
+                </div>
+            </div>
+            <span slot="footer" class="dialog-footer">
+                <el-button @click="visibleConfig.runningTime = false">关闭</el-button>
+              </span>
+        </el-dialog>
+
+        <!-- 相隔天数计算 弹框 -->
+        <el-drawer title="相隔天数计算" :visible.sync="visibleConfig.drawerTime" direction="rtl">
+            <div class="drawer-padding">
+                <span>开始时间：</span>
+                <input title="Year" autofocus="autofocus" size=8 style="width:100px" id=SY2 type="number" pattern="\d*"
+                       value=2019
+                       onFocus=OnEnter(this); onBlur=OnExit(this)>年
+                <input title="Month" size=4 style="width:100px" id=SM2 type="number" pattern="\d*"
+                       value=12
+                       onFocus=OnEnter(this); onBlur=OnExit(this)>月
+                <input title="Day" size=4 style="width:100px" id=SD2 type="number" pattern="\d*" value=10
+                       onFocus=OnEnter(this); onBlur=OnExit(this)>日
+                <br>
+                <br>
+                <span>结束时间：</span>
+                <input title="Year" size=8 id=SY3 style="width:100px" type="number" pattern="\d*"
+                       value=2020
+                       onFocus=OnEnter(this); onBlur=OnExit(this)>年
+                <input title="Month" size=4 id=SM3 style="width:100px" type="number" pattern="\d*"
+                       value=1
+                       onFocus=OnEnter(this); onBlur=OnExit(this)>月
+                <input title="Day" size=4 id=SD3 style="width:100px" type="number" pattern="\d*" value=1
+                       onFocus=OnEnter(this); onBlur=OnExit(this)>日
+                <br>
+                <br>
+                <span>相差：</span>
+                <span style="color:#F60;" id=result2></span>天
+
+                <input class="anniu" type=button value="计算日期" onClick="calb()">
+            </div>
+        </el-drawer>
+    </article>
+</main>
+
+
+</body>
+</html>

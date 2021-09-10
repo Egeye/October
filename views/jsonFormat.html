@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="../dist/vue/2.6/vue.js"></script>
+
+    <script src="../dist/axios/axios.min.js"></script>
+
+    <link href="../dist/element-ui/index.css" rel="stylesheet">
+    <script src="../dist/element-ui/index.js"></script>
+
+    <link rel="stylesheet" href="../styles/jsonFormat.css">
+    <title></title>
+</head>
+<body>
+
+<div id="app" v-cloak>
+    <header class="intro">
+        <!--        <h1>JSON格式化工具</h1>-->
+        <p><i class="zmdi zmdi-dock"></i> JSON Format</p>
+    </header>
+    <main>
+        <article>
+            <el-form ref="jForm" :model="jForm" class="top-btn-area" inline label-width="">
+                <el-form-item label="主题">
+                    <el-select v-model="jForm.theme" @change="handleChangeTheme"
+                               style="width: auto;"
+                               filterable size="small">
+                        <el-option v-for="(item,idx) in themeData"
+                                   :label="item.name"
+                                   :value="item.name"
+                                   :key="idx"></el-option>
+                    </el-select>
+                </el-form-item>
+                <el-form-item label="语言">
+                    <el-select v-model="jForm.language" @change="handleChangeMode"
+                               style="width: 140px;"
+                               filterable size="small">
+                        <el-option v-for="(item,idx) in languageData"
+                                   :label="item.name"
+                                   :value="item.name"
+                                   :key="idx"></el-option>
+                    </el-select>
+                </el-form-item>
+                <el-form-item label="" style="margin-right: 0;">
+                    <el-button size="small" @click="handleFormat" type="primary">格式化校验</el-button>
+                    <el-button size="small" @click="handleZip" plain>压缩</el-button>
+
+                    <!--                    <el-button icon="el-icon-full-screen" size="small" @click="handleFullScreen" plain></el-button>-->
+
+                    <!--                    <el-button size="small">更多<i class="el-icon-arrow-down el-icon&#45;&#45;right"></i></el-button>-->
+
+                    <el-dropdown split-button @click="handleFullScreen" plain size="small" plain
+                                 trigger="click" style="margin-left: 10px;"
+                                 @command="handleMore">
+                        <el-tooltip effect="light" content="最大化编辑器" placement="top">
+                            <i class="el-icon-full-screen"></i>
+                        </el-tooltip>
+                        <el-dropdown-menu slot="dropdown">
+                            <!--                            divided-->
+                            <el-dropdown-item command="a">弹框展示</el-dropdown-item>
+                            <el-dropdown-item command="b">视图展示</el-dropdown-item>
+
+                            <li class="el-dropdown-menu__item el-dropdown-menu__item--divided"
+                                style="text-align: center;">
+                                <el-tooltip class="item" effect="light" content="非对象格式化，启用再确认弹框" placement="bottom">
+                                    <el-switch v-model="configData.openConfirm"></el-switch>
+                                </el-tooltip>
+                            </li>
+
+                        </el-dropdown-menu>
+                    </el-dropdown>
+                </el-form-item>
+
+                <label for="codeArea"></label><textarea id="codeArea" name="codeArea"></textarea>
+            </el-form>
+        </article>
+    </main>
+
+    <el-dialog title="" class="editor-dialog"
+               @close="handleCloseDialog"
+               :visible.sync="dialogConfig.showDialog"
+               :fullscreen="configData.fullscreen"
+               :close-on-press-escape="false"
+               :close-on-click-modal="false">
+        <span slot="title" style="float: right;line-height: 18px;">
+            <el-button icon="el-icon-brush" class="btn-full-screen btn-options" @click="handleFormat"></el-button>
+            <el-dropdown trigger="click" @command="handleDialogCommand" :hide-on-click="false">
+                <el-button icon="el-icon-s-operation" class="btn-full-screen btn-options"></el-button>
+                <el-dropdown-menu slot="dropdown">
+                    <el-dropdown-item>格式刷</el-dropdown-item>
+                    <el-dropdown-item>压缩</el-dropdown-item>
+                    <el-popover placement="right" width="auto" trigger="hover">
+                        <el-select v-model="jForm.theme" @change="handleChangeTheme" style="width: auto;" filterable
+                                   size="mini">
+                            <el-option v-for="(item,idx) in themeData"
+                                       :label="item.name"
+                                       :value="item.name"
+                                       :key="idx"></el-option>
+                        </el-select>
+                        <el-dropdown-item divided slot="reference">主题</el-dropdown-item>
+                    </el-popover>
+                    <el-popover placement="right" width="auto" trigger="hover">
+                        <el-select v-model="jForm.language" @change="handleChangeMode"
+                                   style="width: 140px;"
+                                   filterable size="small">
+                        <el-option v-for="(item,idx) in languageData"
+                                   :label="item.name"
+                                   :value="item.name"
+                                   :key="idx"></el-option>
+                    </el-select>
+                        <el-dropdown-item slot="reference">语言</el-dropdown-item>
+                    </el-popover>
+                </el-dropdown-menu>
+            </el-dropdown>
+            <el-button :icon="configData.fullscreenIcon" class="btn-full-screen" @click="handleFullscreen"></el-button>
+        </span>
+
+        <div>
+            <label for="codeAreaFull"></label><textarea id="codeAreaFull" name="codeAreaFull"></textarea>
+        </div>
+    </el-dialog>
+</div>
+
+</body>
+</html>

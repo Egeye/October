@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:v-bind="http://www.w3.org/1999/xhtml" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Octavius</title>
+
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="../dist/bootstrap/css/bootstrap.css"/>
+
+    <link rel="stylesheet" href="../dist/jside-menu/css/normalize.css"/><!--CSS RESET-->
+    <!--Material Design Iconic Font-->
+    <link rel="stylesheet" href="../dist/material-design/css/material-design-iconic-font.css"/>
+    <!--jSide Menu CSS-->
+    <link rel="stylesheet" href="../dist/jside-menu/css/jside-menu.css"/>
+    <!--jSide Skins-->
+    <link rel="stylesheet" href="../dist/jside-menu/css/jside-skins.css"/>
+    <link rel="stylesheet" href="../dist/SpinKit/rotating-plane.css"/>
+
+
+    <!-- codemirror -->
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/lib/codemirror.css">
+    <script src="../dist/codemirror-5.53.2/lib/codemirror.js"></script>
+
+    <!-- theme -->
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/3024-day.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/3024-night.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/abcdef.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/ambiance.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/ayu-dark.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/ayu-mirage.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/base16-dark.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/bespin.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/base16-light.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/blackboard.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/cobalt.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/colorforth.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/dracula.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/duotone-dark.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/duotone-light.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/eclipse.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/elegant.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/erlang-dark.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/gruvbox-dark.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/hopscotch.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/icecoder.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/isotope.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/lesser-dark.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/liquibyte.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/lucario.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/material.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/material-darker.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/material-palenight.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/material-ocean.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/mbo.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/mdn-like.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/midnight.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/monokai.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/moxer.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/neat.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/neo.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/night.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/nord.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/oceanic-next.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/panda-syntax.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/paraiso-dark.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/paraiso-light.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/pastel-on-dark.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/railscasts.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/rubyblue.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/seti.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/shadowfox.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/solarized.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/the-matrix.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/tomorrow-night-bright.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/tomorrow-night-eighties.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/ttcn.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/twilight.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/vibrant-ink.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/xq-dark.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/xq-light.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/yeti.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/idea.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/darcula.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/yonce.css">
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/theme/zenburn.css">
+
+    <!-- keymap -->
+    <script src="../dist/codemirror-5.53.2/keymap/sublime.js"></script>
+
+    <!-- addon -->
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/addon/fold/foldgutter.css"/>
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/addon/display/fullscreen.css"/>
+    <link rel="stylesheet" href="../dist/codemirror-5.53.2/addon/scroll/simplescrollbars.css"/>
+    <script src="../dist/codemirror-5.53.2/addon/fold/foldcode.js"></script>
+    <script src="../dist/codemirror-5.53.2/addon/fold/foldgutter.js"></script>
+    <script src="../dist/codemirror-5.53.2/addon/fold/xml-fold.js"></script>
+    <script src="../dist/codemirror-5.53.2/addon/fold/brace-fold.js"></script>
+    <script src="../dist/codemirror-5.53.2/addon/fold/indent-fold.js"></script>
+    <script src="../dist/codemirror-5.53.2/addon/fold/markdown-fold.js"></script>
+    <script src="../dist/codemirror-5.53.2/addon/fold/comment-fold.js"></script>
+    <script src="../dist/codemirror-5.53.2/addon/wrap/hardwrap.js"></script>
+    <script src="../dist/codemirror-5.53.2/addon/comment/comment.js"></script>
+    <script src="../dist/codemirror-5.53.2/addon/edit/matchbrackets.js"></script>
+    <script src="../dist/codemirror-5.53.2/addon/edit/closebrackets.js"></script>
+    <script src="../dist/codemirror-5.53.2/addon/display/fullscreen.js"></script>
+    <script src="../dist/codemirror-5.53.2/addon/selection/active-line.js"></script>
+    <script src="../dist/codemirror-5.53.2/addon/selection/mark-selection.js"></script>
+    <script src="../dist/codemirror-5.53.2/addon/selection/selection-pointer.js"></script>
+    <script src="../dist/codemirror-5.53.2/addon/scroll/annotatescrollbar.js"></script>
+    <script src="../dist/codemirror-5.53.2/addon/scroll/scrollpastend.js"></script>
+    <script src="../dist/codemirror-5.53.2/addon/scroll/simplescrollbars.js"></script>
+    <script src="../dist/codemirror-5.53.2/addon/search/matchesonscrollbar.js"></script>
+    <script src="../dist/codemirror-5.53.2/addon/search/searchcursor.js"></script>
+    <script src="../dist/codemirror-5.53.2/addon/search/match-highlighter.js"></script>
+
+    <!-- mode -->
+    <script src="../dist/codemirror-5.53.2/mode/xml/xml.js"></script>
+    <script src="../dist/codemirror-5.53.2/mode/javascript/javascript.js"></script>
+    <script src="../dist/codemirror-5.53.2/mode/css/css.js"></script>
+    <script src="../dist/codemirror-5.53.2/mode/sql/sql.js"></script>
+    <script src="../dist/codemirror-5.53.2/mode/php/php.js"></script>
+    <script src="../dist/codemirror-5.53.2/mode/yaml/yaml.js"></script>
+    <script src="../dist/codemirror-5.53.2/mode/groovy/groovy.js"></script>
+    <script src="../dist/codemirror-5.53.2/mode/shell/shell.js"></script>
+    <script src="../dist/codemirror-5.53.2/mode/python/python.js"></script>
+    <script src="../dist/codemirror-5.53.2/mode/lua/lua.js"></script>
+    <script src="../dist/codemirror-5.53.2/mode/jsx/jsx.js"></script>
+    <script src="../dist/codemirror-5.53.2/mode/vue/vue.js"></script>
+    <script src="../dist/codemirror-5.53.2/mode/markdown/markdown.js"></script>
+    <script src="../dist/codemirror-5.53.2/mode/htmlmixed/htmlmixed.js"></script>
+
+
+    <link rel="stylesheet" href="../styles/main.css"/>
+    <script src="../scripts/common/baiDuStatistics.js"></script>
+</head>
+<body>
+
+<div id="mainApp" v-loading.fullscreen.lock="loading">
+    <div class="or-loading">
+        <div class="sk-rotating-plane"></div>
+    </div>
+
+    <menu class="menubar">
+        <menuitem>
+            <button class="menu-trigger"></button>
+        </menuitem>
+
+        <menuitem class="menu-logout-btn">
+            <el-button icon="el-icon-switch-button" size="small"
+                       @click="handleLogout" v-if="false"
+                       class="main-btn-logout-top" type="primary">
+            </el-button>
+        </menuitem>
+
+        <menuitem class="logo" title="or">
+            <img src="../dist/logo/vue-logo-light.svg" alt="logo" class="main-logo" v-if="false">
+        </menuitem>
+    </menu>
+
+
+    <div class="menu-head">
+    <span class="layer">
+        <div class="col">
+            <div class="row for-pic">
+                <div class="profile-pic"><img src="../styles/images/him.jpg" alt="Asif Mughal"/></div>
+            </div>
+
+            <div class="row for-name">
+	            <h3 title="Octavius Ignativs">Octavius</h3>
+	            <span class="tagline"> Tag line text goes here</span>
+            </div>
+
+        </div>
+    </span>
+    </div>
+    <!--//menu-head-->
+
+    <nav class="menu-container">
+
+        <el-collapse-transition>
+            <ul class="menu-items" v-show="!showConfig.showElMenu">
+                <div v-for="item in mainData['menuList']" v-on:click="menuClick(item)">
+                    <li v-if="item['dropList']" class="has-sub">
+                        <span class="item-icon"><i v-bind:class="'zmdi zmdi-'+item['icon']"></i></span>
+                        <span v-bind:href="'#'+item['href']" class="dropdown-heading">{{ item["title"] }}</span>
+                        <ul>
+                            <div v-for="it in item['dropList']">
+                                <li>
+                                    <a v-bind:href="'#'+it['href']">{{ it["title"] }}</a>
+                                </li>
+                            </div>
+                        </ul>
+                    </li>
+
+                    <li v-if="!item['dropList']">
+                        <span class="item-icon"><i v-bind:class="'zmdi zmdi-'+item['icon']"></i></span>
+                        <a v-bind:href="'#'+item['href']">{{ item["title"] }}
+                            <div v-if="item['switch']" style="float: right;">
+                                <el-switch v-model="item['switch'].value"
+                                           @change="handleMenuSwitch(item)"
+                                           :checked="item['switch'].value"></el-switch>
+                            </div>
+                        </a>
+                    </li>
+
+                </div>
+            </ul>
+        </el-collapse-transition>
+
+        <el-collapse-transition>
+            <el-menu @open="handleMenuOpen"
+                     @select="handleMenuSelect"
+                     @close="handleMenuClose" class="el-menu-style"
+                     v-show="showConfig.showElMenu">
+
+                <div v-for="(item, index) in mainData['menuList']">
+                    <el-menu-item v-if="!item.hasOwnProperty('dropList') && ((item.hasOwnProperty('visible') && item.visible!==false) || !item.hasOwnProperty('visible'))"
+                                  :index="item['id']" :key="item['id']">
+                        <i :class="item['elIcon']"></i>
+                        <span slot="title">{{ item["title"] }}</span>
+                        <div v-if="item['switch'] && item['switch'].visible" style="float: right;">
+                            <el-switch v-model="item['switch'].value"
+                                       :checked="item['switch'].value"
+                                       @change="handleMenuSwitch(item)"></el-switch>
+                        </div>
+                    </el-menu-item>
+
+                    <el-submenu v-if="item.hasOwnProperty('dropList')" :index="item['id']">
+                        <template slot="title">
+                            <i :class="item['elIcon']"></i>
+                            <span>{{ item["title"] }}</span>
+                        </template>
+                        <el-menu-item v-if="!dropItem.hasOwnProperty('dropList')" v-for="(dropItem) in item['dropList']" :index="dropItem['id']" :key="dropItem['id']">
+                            <i :class="dropItem['icon']"></i>
+                            {{ dropItem.title }}
+                        </el-menu-item>
+                        <el-submenu v-if="dropItem.hasOwnProperty('dropList')" v-for="(dropItem) in item['dropList']" :index="dropItem['id']" :key="dropItem['id']">
+                            <template slot="title">
+                                <i :class="dropItem['icon']"></i>
+                                <span slot="title">{{ dropItem["title"] }}</span>
+                            </template>
+
+                            <el-menu-item v-for="(ddItem) in dropItem['dropList']" :index="ddItem['id']" :key="ddItem['id']">
+                                <i :class="ddItem['icon']"></i>
+                                {{ ddItem.title }}
+                            </el-menu-item>
+                        </el-submenu>
+                    </el-submenu>
+                </div>
+
+
+            </el-menu>
+        </el-collapse-transition>
+
+        <div class="main-btn-logout">
+            <el-button round icon="el-icon-switch-button" class="main-width" @click="handleLogout">退出</el-button>
+        </div>
+    </nav>
+
+    <div class="dim-overlay"></div>
+
+    <div id="viewPage"></div>
+
+    <footer>
+        <div class="container">
+            <div class="social text-center">
+                <a class="github-link" href="https://twitter.com" target="_blank"><i class="zmdi zmdi-twitter"></i></a>
+                <a class="github-link" href="https://github.com/Egeye" target="_blank"><i class="zmdi zmdi-github"></i></a>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="../dist/jquery/js/jquery.js" type="text/javascript"></script>
+<script src="../dist/jside-menu/js/jquery.jside.menu.js"></script>
+<script src="../dist/vipspa/vipspa.js"></script>
+<script src="../dist/vue/vue.js"></script>
+
+<link href="../dist/element-ui/index.css" rel="stylesheet">
+<script src="../dist/element-ui/index.js"></script>
+
+<script src="../scripts/main.js"></script>
+</body>
+</html>

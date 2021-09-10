@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="scripts/common/baiDuStatistics.js"></script>
+    <script src="dist/vue/2.6/vue.js"></script>
+    <script src="dist/element-ui/index.js"></script>
+    <link rel="stylesheet" href="dist/element-ui/index.css"/>
+    <title></title>
+</head>
+
+<body>
+
+<div id="indexApp">
+    <div v-loading.fullscreen.lock="fullscreenLoading"></div>
+    <el-dialog title="欢迎"
+               :visible.sync="dialogVisible"
+               width="30%">
+        <span>去哪里？</span>
+        <span slot="footer" class="dialog-footer">
+            <el-button @click="handleJumpView('old')" :loading="loading">旧版登录</el-button>
+            <el-button type="primary" @click="handleJumpView('new')" :loading="loading">新版主页</el-button>
+        </span>
+    </el-dialog>
+
+    <el-row class="tac">
+        <h5>默认颜色</h5>
+        <el-menu
+                default-active="2"
+                class="el-menu-vertical-demo"
+                @open="handleOpen"
+                @close="handleClose">
+            <el-submenu index="1">
+                <template slot="title">
+                    <i class="el-icon-location"></i>
+                    <span>导航一</span>
+                </template>
+<!--                <el-menu-item-group>-->
+                    <el-menu-item index="1-1">选项1</el-menu-item>
+                    <el-menu-item index="1-2">选项2</el-menu-item>
+<!--                </el-menu-item-group>-->
+<!--                <el-menu-item-group>-->
+                    <el-menu-item index="1-3">选项3</el-menu-item>
+<!--                </el-menu-item-group>-->
+<!--                <el-submenu index="1-4">-->
+<!--                    <template slot="title">选项4</template>-->
+<!--                    <el-menu-item index="1-4-1">选项1</el-menu-item>-->
+<!--                </el-submenu>-->
+                <el-submenu index="1-5" title="fff">
+                    <template slot="title">
+                        <span>fff</span>
+                    </template>
+<!--                    <el-menu-item index="1-5-1">1-5-1</el-menu-item>-->
+<!--                    <el-menu-item index="1-5-2">1-5-2</el-menu-item>-->
+<!--                    <el-menu-item index="1-5-3">1-5-3</el-menu-item>-->
+                </el-submenu>
+            </el-submenu>
+            <el-menu-item index="2">
+                <i class="el-icon-menu"></i>
+                <span slot="title">导航二</span>
+            </el-menu-item>
+            <el-menu-item index="3" disabled>
+                <i class="el-icon-document"></i>
+                <span slot="title">导航三</span>
+            </el-menu-item>
+            <el-menu-item index="4">
+                <i class="el-icon-setting"></i>
+                <span slot="title">导航四</span>
+            </el-menu-item>
+        </el-menu>
+    </el-row>
+
+</div>
+
+<script>
+
+    /**
+     * 外部promise
+     * 外部第一个then
+     * 内部promise
+     * 内部第一个then
+     * 外部第二个then
+     外部第三个then
+     外部第四个then
+     内部第二个then
+     */
+    new Promise((resolve, reject) => {
+        console.log('外部promise')
+        resolve()
+    }).then(() => {
+        console.log('外部第一个then')
+        new Promise((resolve, reject) => {
+            console.log('内部promise')
+            resolve()
+        }).then(() => {
+            console.log('内部第一个then')
+            return Promise.resolve()
+        }).then(() => {
+            console.log('内部第二个then')
+        })
+    }).then(() => {
+        console.log('外部第二个then')
+    }).then(() => {
+        console.log('外部第三个then')
+    }).then(() => {
+        console.log('外部第四个then')
+    })
+    Vue.directive("lazyload", {
+        // 指令的定义
+        bind: function (el, binding) {
+            let lazyImageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach((entry, index) => {
+                    let lazyImage = entry.target;
+                    // 相交率，默认是相对于浏览器视窗
+                    if (entry.intersectionRatio > 0) {
+                        lazyImage.src = binding.value;
+                        // 当前图片加载完之后需要去掉监听
+                        lazyImageObserver.unobserve(lazyImage);
+                    }
+
+                })
+            })
+            lazyImageObserver.observe(el);
+        },
+    });
+
+    // window.location.href = "views/main.html";
+    new Vue({
+        el: '#indexApp',
+        data: function () {
+            return {
+                dialogVisible: false,
+                loading: false,
+                fullscreenLoading: true
+            }
+        },
+        created: function () {
+            var that = this;
+            window.setTimeout(function () {
+                that.fullscreenLoading = false;
+                that.dialogVisible = true;
+            }, 1000)
+        },
+        methods: {
+            handleJumpView: function (target) {
+                this.loading = true;
+                var jumpUrl = 'views/main.html';
+                if (target === 'new') jumpUrl = 'views/main.html';
+                else jumpUrl = 'views/login.html';
+                window.setTimeout(function () {
+                    window.location.href = jumpUrl;
+                }, 2000);
+            },
+            handleOpen(key, keyPath) {
+                console.log(key, keyPath);
+            },
+            handleClose(key, keyPath) {
+                console.log(key, keyPath);
+            }
+        }
+    });
+</script>
+
+</body>
+</html>

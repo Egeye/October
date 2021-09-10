@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <title>a</title>
+    <script src="../dist/jquery/js/jquery.js" type="text/javascript"></script>
+    <script src="../dist/axios/axios.min.js" type="text/javascript"></script>
+    <script src="../utils/util.js" type="text/javascript"></script>
+    <style type="text/css">
+        {
+            cursor: none !important;
+        }
+        .button1 {
+            width: 200px;
+            height: 46px;
+            line-height: 46px;
+            background: #2e82ff;
+            color: #ffffff;
+            font-size: 18px;
+            border-radius: 27px;
+            animation: zoomIn 1.5s infinite;
+            text-align: center;
+        }
+        @keyframes zoomIn {
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!--<iframe id="iframe" src="" style="display:none;"></iframe>-->
+<button onclick="doTest()">ooo</button>
+<div class="button1">
+    <span>立即下载</span>
+</div>
+
+<script>
+    // blockDebugger()
+    function handleCallback(rr) {
+        console.log('rr',rr)
+    }
+
+
+    var scripts;
+    function doTest() {
+        open('https://www.baidu.com/')
+        console.log('testestsetestse')
+        let url = 'https://tcc.taobao.com/cc/json/mobile_tel_segment.htm?tel=18060875735';
+
+        // $.ajax({
+        //     url: 'https://tcc.taobao.com/cc/json/mobile_tel_segment.htm?tel=18060875735',
+        //     type: 'get',
+        //     dataType: 'jsonp',  // 请求方式为jsonp
+        //     jsonpCallback: "handleCallback",  // 自定义回调函数名
+        //     data: {}
+        // });
+
+        // axios.post(url).then(function (response) {
+        //     console.log('response', response)
+        // }).catch(function (error) {
+        //     console.log(error);
+        // }).then(function () {
+        // });
+
+
+
+        scripts = document.createElement('script');
+        scripts.type = 'text/javascript';
+
+        // 传参并指定回调执行函数为onBack
+        scripts.src = url + '&callback=onScriptBack';
+        document.head.appendChild(scripts);
+
+
+    }
+    // 回调执行函数
+    function onScriptBack(res) {
+        console.log('res' , res);
+        document.head.removeChild(scripts);
+    }
+
+
+
+    var proxy = function (url, callback) {
+        var state = 0;
+        var iframe = document.createElement('iframe');
+
+        // 加载跨域页面
+        iframe.src = url;
+
+        // onload事件会触发2次，第1次加载跨域页，并留存数据于window.name
+        iframe.onload = function (vv, xx) {
+
+            console.log('onLoad', state);
+            // console.log('onLoad vv',  vv);
+            // console.log('onLoad xx',  xx);
+            console.log('onLoad iframe', iframe);
+            // console.log('onLoad ', document.frames("iframe").document);
+            // console.log('onLoad name',  iframe.contentWindow.name);
+            // console.log('onLoad contentWindow',  iframe.contentWindow);
+            if (state === 1) {
+                // 第2次onload(同域proxy页)成功后，读取同域window.name中数据
+                callback(iframe.contentWindow.name);
+                destroyFrame();
+
+            } else if (state === 0) {
+                // 第1次onload(跨域页)成功后，切换到同域代理页面
+                // iframe.contentWindow.location = './b.html';
+                // state = 1;
+            }
+        };
+
+        document.body.appendChild(iframe);
+
+        // 获取数据以后销毁这个iframe，释放内存；这也保证了安全（不被其他域frame js访问）
+        function destroyFrame() {
+            iframe.contentWindow.document.write('');
+            iframe.contentWindow.close();
+            document.body.removeChild(iframe);
+        }
+    };
+
+    // 请求跨域b页面数据
+    // proxy('https://tcc.taobao.com/cc/json/mobile_tel_segment.htm?tel=18060875735', function (data) {
+    //     console.log('data', data);
+    // });
+
+    console.log2('你是逗逼吗')
+
+    console.log('pricePerThousandDivide', pricePerThousandDivide('1123456789'))
+
+
+</script>
+
+</body>
+</html>

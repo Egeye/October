@@ -1,0 +1,121 @@
+.mds-list {
+    margin-top: 72px;
+    min-height: 500px;
+    padding-top: 20px;
+}
+
+.md-item {
+    padding: 0 23px 0 23px;
+
+}
+
+
+/*适配移动屏幕就看这些了😔 ε=ε=ε=(~￣▽￣)~*/
+@media (min-width: 768px) {
+    .md-item-d {
+        display: inline-flex;
+        /*border-top: 1px solid rgba(34,36,38,.15);*/
+    }
+
+    .md-pic {
+        /*background: url("../images/bg-autumn.jpg") no-repeat;*/
+        overflow: hidden;
+        height: 150px;
+        width: 300px;
+    }
+
+    .md-pic-bg {
+        /*width: 260px;*/
+        /*height: 147px;*/
+        max-height: 150px;
+        border-radius: 5px;
+    }
+
+    .md-info {
+        width: 635px;
+        text-align: left;
+        padding-left: 12px;
+    }
+
+    .md-separate{
+        margin-top: 20px;
+        border: 0;
+        width: 74%;
+        border-top: 1px solid #eee;
+    }
+}
+
+@media (max-width: 760px) {
+    .md-item-d {
+        /*display: table-caption;*/
+    }
+
+    .md-pic {
+        /*background: url("../images/bg-autumn.jpg") no-repeat;*/
+        overflow: hidden;
+    }
+
+    .md-pic-bg {
+        max-height: 234px;
+        border-radius: 5px;
+    }
+
+    .md-info {
+        width: auto;
+        text-align: left;
+        padding: 10px 22px 0 16px;
+    }
+
+    .md-separate{
+        margin-top: 20px;
+        border: 0;
+        border-top: 1px solid #eee;
+    }
+}
+
+.a-title {
+    text-decoration: none !important;
+    color: #34495e;
+    /*font-size: 19px;*/
+    /*font-size: 1.28571429em;*/
+    font-size: 1.7em;
+    display: inline-block;
+    font-weight: 400;
+}
+
+.md-info-desc {
+    margin: .5em 0;
+    /*font-size: 1.4em;*/
+    line-height: 1em;
+    font-size: 18px;
+    color: #7f8c8d;
+}
+
+.md-info-auth {
+    margin-top: 25px;
+    color: #95a5a6;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+.md-info-icon {
+    top: 1px;
+}
+
+.md-info-time {
+    margin-right: 8px;
+}
+
+.more-link {
+    margin-left: 5px;
+    top: 1px;
+}
+
+.md-detail {
+    cursor: pointer;
+    float: right;
+    color: #CC4646;
+    text-decoration: none !important;
+}

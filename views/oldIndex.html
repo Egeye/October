@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Octavius</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="../dist/bootstrap/css/bootstrap.css"/>
+
+    <link rel="stylesheet" type="text/css" href="../dist/jquery/css/isotope.css" media="screen"/>
+    <link rel="stylesheet" href="../dist/fancybox/css/jquery.fancybox.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="../dist/jquery/css/da-slider.css"/>
+    <!-- Owl Carousel Assets -->
+    <link href="../dist/owl-carousel/css/owl.carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/common/common.css"/>
+    <link rel="stylesheet" href="../styles/index.css"/>
+    <!-- Font Awesome -->
+    <link href="../dist/font-awesone/css/font-awesome.min.css" rel="stylesheet">
+    <script src="../scripts/common/baiDuStatistics.js"></script>
+
+    <script src="../dist/vue/2.6/vue.js"></script>
+
+    <link href="../dist/element-ui/index.css" rel="stylesheet">
+    <script src="../dist/element-ui/index.js"></script>
+
+    <script src="../dist/jquery/js/jquery.js"></script>
+    <script src="../dist/modernizr-latest.js"></script>
+    <script src="../dist/jquery/js/jquery.isotope.min.js" type="text/javascript"></script>
+    <script src="../dist/fancybox/js/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script src="../dist/jquery/js/jquery.nav.js" type="text/javascript"></script>
+    <script src="../dist/jquery/js/jquery.cslider.js" type="text/javascript"></script>
+    <script src="../dist/owl-carousel/js/owl.carousel.js"></script>
+    <script src="../dist/bootstrap/js/bootstrap.js"></script>
+
+    <script src="../scripts/common/common.js" type="text/javascript"></script>
+    <script src="../scripts/common/leftClick.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="app" v-cloak>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#main-nav">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-brand scroll-top">
+                        <el-dropdown trigger="click" @command="handleAvatar" placement="bottom-start">
+                            <img class="logo" src="../styles/images/him3.jpg" alt=""/>
+                            <el-dropdown-menu slot="dropdown">
+                                <el-dropdown-item command="main">跳转主页</el-dropdown-item>
+                                <el-dropdown-item command="logout">退出登录</el-dropdown-item>
+                            </el-dropdown-menu>
+                        </el-dropdown>
+                    </div>
+                </div>
+                <!--/.navbar-header-->
+                <div id="main-nav" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav" id="mainNav">
+                        <li class="active"><a href="#home" class="scroll-link">主页</a></li>
+                        <!--<li><a href="views/photo.html" class="scroll-link">相册</a></li>-->
+                        <li><a href="blog.html" class="scroll-link">日记</a></li>
+                        <li><a href="test.html" class="scroll-link">测试</a></li>
+                    </ul>
+                </div>
+                <!--/.navbar-collapse-->
+            </nav>
+            <!--/.navbar-->
+        </div>
+        <!--/.container-->
+    </header>
+    <!--/.header-->
+
+    <div id="content">
+        <section id="home">
+            <div class="banner-container">
+                <img src="../styles/images/bg-autumn.jpg" alt="banner"/>
+                <div class="container banner-content">
+                    <div id="da-slider" class="da-slider">
+                        <div class="da-slide">
+                            <h2>秋天</h2>
+                            <p>秋高气爽的秋天，所以我非常喜欢夏天!讨厌冬天！</p>
+                            <div class="da-img"></div>
+                        </div>
+                        <div class="da-slide">
+                            <h2>末日</h2>
+                            <p>朋友买了块户外手表，质量很赞，从悬崖落下去都没坏，就是人死了~</p>
+                            <div class="da-img"></div>
+                        </div>
+                        <div class="da-slide">
+                            <h2>想哭</h2>
+                            <p>切洋葱的时候我总是闭着眼睛，以为这样就不会流眼泪了，但当我切到手的那一瞬间还是哭了——</p>
+                            <div class="da-img"></div>
+                        </div>
+                        <!--  <nav class="da-arrows">
+                                <span class="da-arrows-prev"></span>
+                                <span class="da-arrows-next"></span>
+                            </nav> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="introText">
+            <div class="container">
+                <div class="text-center">
+                    <h1>每次记录的瞬间,我就想象着那简短的句子能变成一本书。</h1>
+                    <p>“生活自有他固定的格式，但我们并不觉得枯燥乏味。
+                        因为在这固定的格式里，我们总会去创造许多新的细节，一次与一次不一样。
+                        人在这么大岁数时,总是容易满足的。
+                        这次打篮球与上次打篮球，只要换了一个人，或只要球滚进水里的样子不一样，我们就绝不可能把两次打篮球看成是一种重复打的活动。
+                        即使觉得重复，也还是饶有兴味，就像一个小孩老对一种固定不变的游戏感兴趣一样。”</p>
+                </div>
+            </div>
+
+        </section>
+        <section id="aboutUs" class="secPad">
+            <div class="container">
+                <div class="heading text-center">
+                    <!-- Heading -->
+                    <h2>只有我的时候才是足以证明我就是我的我。</h2>
+                    <p>“我是纵使在你死后，依然能够永远留存下来的我，是足以证明我就是我的我。”</p>
+                </div>
+                <div class="row">
+                    <!-- item -->
+                    <div class="col-md-4 text-center tileBox">
+                        <div class="txtHead">
+                            <i class="fa fa-desktop"></i>
+                            <h3>电脑手机平板</h3>
+                        </div>
+                        <p>“都是长时间的、很不健康的，盯着各种电子设备看吧……”</p>
+                    </div>
+                    <!-- end: -->
+
+                    <!-- item -->
+                    <div class="col-md-4 text-center tileBox">
+                        <div class="txtHead">
+                            <i class="fa fa-pencil"></i>
+                            <h3>幻想的妄想</h3>
+                        </div>
+                        <p>“就算全世界低头在地面摩擦上百次，流泪道歉都不够！”</p>
+                    </div>
+                    <!-- end: -->
+
+                    <!-- item -->
+                    <div class="col-md-4 text-center tileBox">
+                        <div class="txtHead">
+                            <i class="fa fa-money"></i>
+                            <h3>有钱能使鬼推磨</h3>
+                        </div>
+                        <p>“不论是怎样生活过来的，人只要活着就有苦处。”</p>
+                    </div>
+                    <!-- end: -->
+                </div>
+            </div>
+        </section>
+        <section id="quote" class="bg-parlex">
+            <div class="parlex-back">
+                <div class="container secPad text-center">
+                    <h2>“听是听到了,但是大脑拒绝理解…”</h2>
+                    <h3>——魏</h3>
+                </div>
+                <!--/.container-->
+            </div>
+        </section>
+        <section id="experience" class="secPad">
+            <div class="container">
+                <div class="heading text-center">
+                    <!-- Heading -->
+                    <h2>慢慢忘记</h2>
+                    <p>遗忘的能力，才使得人们能够从痛苦中获得解脱，同时也付出了记忆的代价……</p>
+                </div>
+                <div id="timeline">
+                    <div class="row timeline-movement timeline-movement-top">
+                        <div class="timeline-badge timeline-future-movement">
+                            <a>
+                                <span class="glyphicon glyphicon-home"></span>
+                            </a>
+                        </div>
+                        <div class="timeline-badge timeline-filter-movement">
+                            <a>
+                                <span class="glyphicon glyphicon-time"></span>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="row timeline-movement">
+                        <div class="timeline-badge">
+                            <span class="timeline-balloon-date-day">八</span>
+                            <span class="timeline-balloon-date-month">2018</span>
+                        </div>
+                        <div class="col-sm-6  timeline-item">
+                            <div class="row">
+                                <div class="col-sm-11">
+                                    <div class="timeline-panel credits">
+                                        <ul class="timeline-panel-ul">
+                                            <li><span class="importo">测试</span></li>
+                                            <li>
+                                                <span class="causale">“在正义被邪恶消灭的主义绝对不会成为决胜的既定前提下，这个世界就会变成像是在嘲讽掌权者必胜的现代社会嘲讽剧，黯然落幕。”</span>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <small class="text-muted">2018年8月30日</small>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6  timeline-item">
+                            <div class="row">
+                                <div class="col-sm-offset-1 col-sm-11">
+                                    <div class="timeline-panel debits">
+                                        <ul class="timeline-panel-ul">
+                                            <li><span class="importo">权释</span></li>
+                                            <li>
+                                                <span class="causale">“不觉得凡事只要用心理术语来解说的话，什么都说得通吗？”</span>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <small class="text-muted">2018年8月30日</small>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row timeline-movement">
+                        <div class="timeline-badge">
+                            <span class="timeline-balloon-date-day">四</span>
+                            <span class="timeline-balloon-date-month">2016</span>
+                        </div>
+                        <div class="col-sm-offset-6 col-sm-6  timeline-item">
+                            <div class="row">
+                                <div class="col-sm-offset-1 col-sm-11">
+                                    <div class="timeline-panel debits">
+                                        <ul class="timeline-panel-ul">
+                                            <li><span class="importo">石磊</span></li>
+                                            <li>
+                                                <span class="causale">“这个世界上，有些事情就是因为是事实所以才不能这么堂而皇之地说出口的。”</span>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <small class="text-muted">2016年7月24日</small>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6  timeline-item">
+                            <div class="row">
+                                <div class="col-sm-11">
+                                    <div class="timeline-panel credits">
+                                        <ul class="timeline-panel-ul">
+                                            <li><span class="importo">美蓝</span></li>
+                                            <li>
+                                                <span class="causale">“人人都有自己的道理行事，人人都有自身的隐痛悲伤。”</span>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <small class="text-muted">2016年4月16日</small>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row timeline-movement">
+                        <div class="timeline-badge">
+                            <span class="timeline-balloon-date-day">七</span>
+                            <span class="timeline-balloon-date-month">2012</span>
+                        </div>
+                        <div class="col-sm-offset-6 col-sm-6  timeline-item">
+                            <div class="row">
+                                <div class="col-sm-offset-1 col-sm-11">
+                                    <div class="timeline-panel debits">
+                                        <ul class="timeline-panel-ul">
+                                            <li><span class="importo">时宇乾</span></li>
+                                            <li>
+                                                <span class="causale">“我知道，能够在平常生活中与他人产生共鸣的感觉，确实比相信信仰或遥远传说故事强上许多。” </span>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <small class="text-muted">2012年7月27日</small>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6  timeline-item">
+                            <div class="row">
+                                <div class="col-sm-11">
+                                    <div class="timeline-panel credits">
+                                        <ul class="timeline-panel-ul">
+                                            <li><span class="importo">测试</span></li>
+                                            <li>
+                                                <span class="causale">“如果在伤口上撒盐，伤口会保鲜很久呢～”</span>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <small class="text-muted">2012年7月20日</small>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="page-section section appear clearfix secPad">
+            <div class="container">
+
+                <div class="heading text-center">
+                    <!-- Heading -->
+                    <h2>记忆</h2>
+                    <p>图片是最好的基础记忆载体了，除了视频之外的吧。</p>
+                </div>
+
+                <div class="row">
+                    <nav id="filter" class="col-md-12 text-center">
+                        <ul>
+                            <li><a href="#" class="current btn-theme btn-small" data-filter="*">全部</a></li>
+                            <li><a href="#" class="btn-theme btn-small" data-filter=".webdesign">Web Design</a></li>
+                            <li><a href="#" class="btn-theme btn-small" data-filter=".photography">Photography</a></li>
+                            <li><a href="#" class="btn-theme btn-small" data-filter=".print">Print</a></li>
+                        </ul>
+                    </nav>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="portfolio-items isotopeWrapper clearfix" id="3">
+
+                                <article class="col-sm-4 isotopeItem webdesign">
+                                    <div class="portfolio-item">
+                                        <img src="../styles/images/portfolio/img1.jpg" alt=""/>
+                                        <div class="portfolio-desc align-center">
+                                            <div class="folio-info">
+                                                <a href="../styles/images/portfolio/img1.jpg" class="fancybox">
+                                                    <h5>Project Name</h5>
+                                                    <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="col-sm-4 isotopeItem photography">
+                                    <div class="portfolio-item">
+                                        <img src="../styles/images/portfolio/img2.jpg" alt=""/>
+                                        <div class="portfolio-desc align-center">
+                                            <div class="folio-info">
+                                                <a href="../styles/images/portfolio/img2.jpg" class="fancybox">
+                                                    <h5>Project Name</h5>
+                                                    <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+
+                                <article class="col-sm-4 isotopeItem photography">
+                                    <div class="portfolio-item">
+                                        <img src="../styles/images/portfolio/img3.jpg" alt=""/>
+                                        <div class="portfolio-desc align-center">
+                                            <div class="folio-info">
+                                                <a href="../styles/images/portfolio/img3.jpg" class="fancybox">
+                                                    <h5>Project Name</h5>
+                                                    <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="col-sm-4 isotopeItem print">
+                                    <div class="portfolio-item">
+                                        <img src="../styles/images/portfolio/img4.jpg" alt=""/>
+                                        <div class="portfolio-desc align-center">
+                                            <div class="folio-info">
+                                                <a href="../styles/images/portfolio/img4.jpg" class="fancybox">
+                                                    <h5>Project Name</h5>
+                                                    <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="col-sm-4 isotopeItem photography">
+                                    <div class="portfolio-item">
+                                        <img src="../styles/images/portfolio/img5.jpg" alt=""/>
+                                        <div class="portfolio-desc align-center">
+                                            <div class="folio-info">
+                                                <a href="../styles/images/portfolio/img5.jpg" class="fancybox">
+                                                    <h5>Project Name</h5>
+                                                    <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="col-sm-4 isotopeItem webdesign">
+                                    <div class="portfolio-item">
+                                        <img src="../styles/images/portfolio/img6.jpg" alt=""/>
+                                        <div class="portfolio-desc align-center">
+                                            <div class="folio-info">
+                                                <a href="../styles/images/portfolio/img6.jpg" class="fancybox">
+                                                    <h5>Project Name</h5>
+                                                    <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="col-sm-4 isotopeItem print">
+                                    <div class="portfolio-item">
+                                        <img src="../styles/images/portfolio/img7.jpg" alt=""/>
+                                        <div class="portfolio-desc align-center">
+                                            <div class="folio-info">
+                                                <a href="../styles/images/portfolio/img7.jpg" class="fancybox">
+                                                    <h5>Project Name</h5>
+                                                    <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="col-sm-4 isotopeItem photography">
+                                    <div class="portfolio-item">
+                                        <img src="../styles/images/portfolio/img8.jpg" alt=""/>
+                                        <div class="portfolio-desc align-center">
+                                            <div class="folio-info">
+                                                <a href="../styles/images/portfolio/img8.jpg" class="fancybox">
+                                                    <h5>Project Name</h5>
+                                                    <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="col-sm-4 isotopeItem print">
+                                    <div class="portfolio-item">
+                                        <img src="../styles/images/portfolio/img9.jpg" alt=""/>
+                                        <div class="portfolio-desc align-center">
+                                            <div class="folio-info">
+                                                <a href="../styles/images/portfolio/img9.jpg" class="fancybox">
+                                                    <h5>Project Name</h5>
+                                                    <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="social text-center">
+                <!--<a href="#"><i class="fa fa-twitter"></i></a>-->
+                <a href="https://github.com/Egeye" target="_blank"><i class="fa fa-github"></i></a>
+            </div>
+            <div class="clear"></div>
+            <!--CLEAR FLOATS-->
+        </div>
+    </footer>
+    <section class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    Copyright &copy; 2019.Company name All rights reserved.
+                </div>
+            </div>
+        </div>
+    </section>
+    <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a>
+</div>
+
+<script src="../scripts/index.js" type="text/javascript"></script>
+<script src="../scripts/common/avatarController.js" type="text/javascript"></script>
+
+</body>
+</html>

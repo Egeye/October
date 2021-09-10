@@ -1,0 +1,60 @@
+.CodeMirror {
+    /*border: 1px solid black;*/
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    border-radius: 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+.top-btn-area {
+    margin-top: 15px;
+    /*padding: 0 8px;*/
+}
+
+[v-cloak] {
+    display: none;
+}
+
+
+.cm-matchhighlight {
+    background-color: rgba(77, 128, 77, 0.6)
+}
+
+.CodeMirror-selection-highlight-scrollbar {
+    background-color: rgba(0, 87, 0, 0.57)
+}
+
+.CodeMirror-foldmarker {
+    letter-spacing: -1px;
+    background: yellow;
+    border: solid 1px #e8d9d9;
+    border-radius: 3px;
+    width: auto;
+    display: inline-block;
+    height: 10px !important;
+    padding-top: 3px;
+}
+
+.el-notification {
+    width: 450px !important;
+}
+
+#app .el-form-item {
+    margin-bottom: 10px !important;
+}
+
+#app .btn-full-screen {
+    border: none;
+    padding: 0;
+    margin-right: 35px;
+}
+
+#app .btn-options {
+    margin-right: 20px;
+}
+
+#app .editor-dialog .el-dialog__body {
+    padding-top: 10px;
+}

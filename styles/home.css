@@ -1,0 +1,30 @@
+.home-text-center {
+    text-align: center;
+}
+
+.parallax-4 {
+    position: relative;
+    background-image: url(../styles/images/home/lemon.jpg);
+    background-size: cover;
+    height: 900px;
+    top: -425px;
+    left: 8%;
+    margin-left: -300px;
+}
+
+.parallax-wrapper-2 {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    margin: 7px 0 7px 0;
+}
+
+.parallax-5 {
+    position: relative;
+    background-image: url(../styles/images/home/lemon.jpg);
+    background-size: cover;
+    height: 900px;
+    /*top: 25px;*/
+    /*left: 8%;*/
+    /*margin-left: -100px;*/
+}

@@ -1,0 +1,136 @@
+{
+  "menuList": [
+    {
+      "id": "1",
+      "title": "首页",
+      "href": "home",
+      "icon": "home",
+      "elIcon": "el-icon-s-home"
+    },
+    {
+      "id": "2",
+      "title": "小工具",
+      "href": "tool",
+      "dropList": [
+        {
+          "id": "2-1",
+          "title": "日期|天数",
+          "href": "timeTool"
+        },
+        {
+          "id": "2-2",
+          "title": "JSON格式刷",
+          "href": "jsonFormat"
+        },
+        {
+          "id": "2-3",
+          "title": "手机号",
+          "href": "phone"
+        }
+      ],
+      "icon": "dock",
+      "elIcon": "el-icon-s-grid"
+    },
+    {
+      "id": "3",
+      "title": "Spring Boot",
+      "href": "springBoot",
+      "icon": "leak",
+      "elIcon": "el-icon-s-management",
+      "visible": false
+    },
+    {
+      "id": "4",
+      "title": "归档",
+      "href": "mds",
+      "icon": "leak",
+      "elIcon": "el-icon-s-order",
+      "dropList": [
+        {
+          "id": "2020",
+          "title": "2020",
+          "icon": "el-icon-date",
+          "href": "mds"
+        },
+        {
+          "id": "2021",
+          "title": "2021",
+          "icon": "el-icon-date",
+          "href": "mds",
+          "dropList": [
+            {
+              "id": "4-1-6",
+              "title": "06",
+              "icon": "el-icon-notebook-1",
+              "href": "mdsDetail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "音乐",
+      "href": "music",
+      "icon": "leak",
+      "elIcon": "el-icon-service",
+      "visible": false
+    },
+    {
+      "id": "6",
+      "title": "css光晕效果",
+      "href": "lightDemo",
+      "icon": "leak",
+      "elIcon": "el-icon-service",
+      "visible": false
+    },
+    {
+      "id": "999",
+      "title": "设置",
+      "href": "setting",
+      "icon": "settings",
+      "switch": {
+        "visible": false
+      },
+      "elIcon": "el-icon-s-operation"
+    }
+  ],
+  "routerData": {
+    "home": {
+      "templateUrl": "../views/home.html",
+      "controller": "../scripts/home.js"
+    },
+    "setting": {
+      "templateUrl": "../views/setting.html",
+      "controller": "../scripts/setting.js"
+    },
+    "timeTool": {
+      "templateUrl": "../views/timeTool.html",
+      "controller": "../scripts/timeTool.js"
+    },
+    "jsonFormat": {
+      "templateUrl": "../views/jsonFormat.html",
+      "controller": "../scripts/jsonFormat.js"
+    },
+    "springBoot": {
+      "templateUrl": "../views/springBoot.html",
+      "controller": "../scripts/springBoot.js"
+    },
+    "lightDemo": {
+      "templateUrl": "../views/lightDemo.html",
+      "controller": "../scripts/lightDemo.js"
+    },
+    "music": {
+      "templateUrl": "../views/music.html",
+      "controller": "../scripts/music.js"
+    },
+    "phone": {
+      "templateUrl": "../views/phone.html",
+      "controller": "../scripts/phone.js"
+    },
+    "mds": {
+      "templateUrl": "../views/mds.html",
+      "controller": "../scripts/mds.js"
+    }
+  }
+}

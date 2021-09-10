@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>1 rotating plane</title>
+
+</head>
+<style type="text/css">
+    .a{
+        color: red;
+    }
+    .pageson{
+        background-color: red;
+    }
+</style>
+<body>
+
+
+<ul>
+
+    <li class="pageson"><span>1</span></li>
+
+    <li><span>2</span></li>
+
+    <li><span>3</span></li>
+
+    <li><span>4</span></li>
+
+    <li><span>5</span></li>
+
+</ul>
+</body>
+
+<script src="../dist/jquery/js/jquery.js"></script>
+
+<script type="text/javascript">
+
+    var str = "iid0000ffr";
+
+    var s = "rgb(245, 53, 170) none repeat scroll 0% 0% / auto padding-box border-box";
+
+    var substr = str.match(/id(\S*)ff/);
+
+    console.log(substr)
+    console.log(s.match(/rgb\(\*+\)/));
+
+    $(document).ready(function(){
+        $('ul li').click(function(){
+            $(this).siblings().removeClass('pageson');
+            $(this).addClass('pageson');
+
+        })
+    })
+</script>
+</html>

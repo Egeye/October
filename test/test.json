@@ -1,0 +1,6978 @@
+{
+  "data": {
+    "count": [
+      {
+        "other": {
+          "govOrg": {
+            "B2": 136,
+            "A": 234,
+            "other": 2614,
+            "B1": 21
+          },
+          "public": {
+            "B2": 99,
+            "A": 933,
+            "other": 3615,
+            "B1": 144
+          },
+          "school": {
+            "B2": 7,
+            "A": "0",
+            "other": 65,
+            "B1": 5
+          }
+        },
+        "mov": {
+          "govOrg": {
+            "B2": 89,
+            "A": 152,
+            "other": 186,
+            "B1": 82
+          },
+          "public": {
+            "B2": 404,
+            "A": 3449,
+            "other": 1873,
+            "B1": 662
+          },
+          "school": {
+            "B2": 11,
+            "A": 1,
+            "other": 30,
+            "B1": 28
+          }
+        },
+        "broadband": {
+          "govOrg": {
+            "B2": 8,
+            "A": 29,
+            "other": 1031,
+            "B1": 3
+          },
+          "public": {
+            "B2": 54,
+            "A": 104,
+            "other": 1374,
+            "B1": 3
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 183,
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": 1,
+            "A": 15,
+            "other": 360,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 11,
+            "A": 22,
+            "other": 490,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 7,
+            "B1": "0"
+          }
+        },
+        "count": "20128",
+        "movFixed": {
+          "govOrg": {
+            "B2": 56,
+            "A": 8,
+            "other": 190,
+            "B1": 20
+          },
+          "public": {
+            "B2": 156,
+            "A": 124,
+            "other": 911,
+            "B1": 90
+          },
+          "school": {
+            "B2": 8,
+            "A": "0",
+            "other": 23,
+            "B1": 7
+          }
+        },
+        "salesStatus": "1000",
+        "miitNum": 12771
+      },
+      {
+        "other": {
+          "govOrg": {
+            "B2": 45,
+            "A": 80,
+            "other": 6581,
+            "B1": 38
+          },
+          "public": {
+            "B2": 36,
+            "A": 411,
+            "other": 18691,
+            "B1": 80
+          },
+          "school": {
+            "B2": 8,
+            "A": "0",
+            "other": 173,
+            "B1": 8
+          }
+        },
+        "mov": {
+          "govOrg": {
+            "B2": 17,
+            "A": 185,
+            "other": 4087,
+            "B1": 56
+          },
+          "public": {
+            "B2": 231,
+            "A": 5779,
+            "other": 31270,
+            "B1": 1285
+          },
+          "school": {
+            "B2": 28,
+            "A": 7,
+            "other": 957,
+            "B1": 28
+          }
+        },
+        "broadband": {
+          "govOrg": {
+            "B2": 8,
+            "A": 10,
+            "other": 2198,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 39,
+            "A": 74,
+            "other": 12816,
+            "B1": 1
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 318,
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "存量",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 1672,
+            "B1": 1
+          },
+          "public": {
+            "B2": 6,
+            "A": 13,
+            "other": 6841,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 14,
+            "B1": "0"
+          }
+        },
+        "count": "108915",
+        "movFixed": {
+          "govOrg": {
+            "B2": 31,
+            "A": 10,
+            "other": 2373,
+            "B1": 21
+          },
+          "public": {
+            "B2": 143,
+            "A": 286,
+            "other": 11529,
+            "B1": 233
+          },
+          "school": {
+            "B2": 1,
+            "A": "0",
+            "other": 195,
+            "B1": 1
+          }
+        },
+        "salesStatus": "1200",
+        "miitNum": ""
+      }
+    ],
+    "list": [
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": 1,
+            "other": 25,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 27,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008110000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 7,
+            "other": 30,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 72,
+            "other": 11,
+            "B1": 2
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 2,
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 19,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 60,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 5,
+            "B1": "0"
+          }
+        },
+        "regionName": "北京市",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 1,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 265,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 2,
+            "B1": 1
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "212"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": 4,
+            "A": 5,
+            "other": 358,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 63,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 6,
+            "B1": "0"
+          }
+        },
+        "regionId": "100008120000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 5,
+            "A": 67,
+            "other": 32,
+            "B1": 21
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": 1,
+            "other": 36,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 1,
+            "other": 30,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 1,
+            "B1": "0"
+          }
+        },
+        "regionName": "天津市",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 662,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": 1,
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 8,
+            "A": 2,
+            "other": 13,
+            "B1": "0"
+          },
+          "school": {
+            "B2": 4,
+            "A": "0",
+            "other": 4,
+            "B1": "0"
+          }
+        },
+        "miitNum": "226"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 26,
+            "other": 86,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008130000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 5,
+            "A": 43,
+            "other": 9,
+            "B1": 11
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 3,
+            "other": 20,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "河北省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 221,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 2,
+            "A": 9,
+            "other": 2,
+            "B1": 5
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "109"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": 24,
+            "other": 101,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 10,
+            "other": 88,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 4,
+            "B1": "0"
+          }
+        },
+        "regionId": "100008140000",
+        "mov": {
+          "govOrg": {
+            "B2": 2,
+            "A": 1,
+            "other": "0",
+            "B1": 4
+          },
+          "public": {
+            "B2": 1,
+            "A": 56,
+            "other": "0",
+            "B1": 6
+          },
+          "school": {
+            "B2": 2,
+            "A": "0",
+            "other": "0",
+            "B1": 2
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": 2,
+            "other": 7,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 11,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 15,
+            "B1": "0"
+          }
+        },
+        "regionName": "山西省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 336,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "109"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008150000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 76,
+            "other": 9,
+            "B1": 7
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 3,
+            "other": 12,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "内蒙古自治区",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 168,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 61,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "168"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 10,
+            "other": 194,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008210000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 60,
+            "other": 1,
+            "B1": 16
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 15,
+            "other": 145,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "辽宁省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 8,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 482,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 19,
+            "other": 7,
+            "B1": 7
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "286"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 12,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 1,
+            "A": 41,
+            "other": 812,
+            "B1": 1
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 39,
+            "B1": "0"
+          }
+        },
+        "regionId": "100008220000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 283,
+            "A": 527,
+            "other": 369,
+            "B1": 69
+          },
+          "school": {
+            "B2": "0",
+            "A": 1,
+            "other": 8,
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 9,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 25,
+            "other": 129,
+            "B1": 1
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 4,
+            "B1": "0"
+          }
+        },
+        "regionName": "吉林省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 5,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 126,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 2620,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 3,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 17,
+            "A": 1,
+            "other": 134,
+            "B1": "0"
+          },
+          "school": {
+            "B2": 1,
+            "A": "0",
+            "other": 2,
+            "B1": "0"
+          }
+        },
+        "miitNum": "1840"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": 1,
+            "other": 13,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 28,
+            "other": 113,
+            "B1": 1
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008230000",
+        "mov": {
+          "govOrg": {
+            "B2": 12,
+            "A": 9,
+            "other": 2,
+            "B1": 5
+          },
+          "public": {
+            "B2": 3,
+            "A": 60,
+            "other": 1,
+            "B1": 20
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 73,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 4,
+            "other": 44,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 50,
+            "B1": "0"
+          }
+        },
+        "regionName": "黑龙江省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 439,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "283"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": 1,
+            "A": 4,
+            "other": 133,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 7,
+            "A": 9,
+            "other": 10,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008310000",
+        "mov": {
+          "govOrg": {
+            "B2": 55,
+            "A": 3,
+            "other": 105,
+            "B1": 9
+          },
+          "public": {
+            "B2": 8,
+            "A": 56,
+            "other": 2,
+            "B1": 27
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 70,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 25,
+            "A": "0",
+            "other": 8,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 10,
+            "B1": "0"
+          }
+        },
+        "regionName": "上海市",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": 1,
+            "A": 6,
+            "other": 51,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 8,
+            "A": 1,
+            "other": 1,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 625,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": 1,
+            "A": "0",
+            "other": 7,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 1,
+            "other": "0",
+            "B1": 6
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "471"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": 1,
+            "A": 7,
+            "other": 13,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 19,
+            "other": 10,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008320000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 13,
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 94,
+            "other": "0",
+            "B1": 5
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 9,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 28,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "江苏省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 57,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 4,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 324,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": 22,
+            "A": "0",
+            "other": 17,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 15,
+            "A": "0",
+            "other": 7,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 3,
+            "B1": "0"
+          }
+        },
+        "miitNum": "278"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": 1,
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 26,
+            "other": 15,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008330000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 9,
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 54,
+            "other": 2,
+            "B1": 4
+          },
+          "school": {
+            "B2": 1,
+            "A": "0",
+            "other": "0",
+            "B1": 3
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 2,
+            "A": 2,
+            "other": 188,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 30,
+            "B1": "0"
+          }
+        },
+        "regionName": "浙江省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 380,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 39,
+            "B1": 1
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 3,
+            "B1": "0"
+          }
+        },
+        "miitNum": "338"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 113,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 4,
+            "other": 24,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008340000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 7,
+            "other": 6,
+            "B1": 9
+          },
+          "public": {
+            "B2": "0",
+            "A": 56,
+            "other": 1,
+            "B1": 5
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 1,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 2,
+            "other": 11,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 2,
+            "B1": "0"
+          }
+        },
+        "regionName": "安徽省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 299,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 58,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "158"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": 2,
+            "A": 15,
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 5,
+            "A": 55,
+            "other": 369,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 1,
+            "B1": "0"
+          }
+        },
+        "regionId": "100008350000",
+        "mov": {
+          "govOrg": {
+            "B2": 5,
+            "A": 6,
+            "other": "0",
+            "B1": 6
+          },
+          "public": {
+            "B2": 5,
+            "A": 51,
+            "other": 11,
+            "B1": 23
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": 4
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 2,
+            "A": 3,
+            "other": 9,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 3,
+            "B1": "0"
+          }
+        },
+        "regionName": "福建省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 3,
+            "A": 2,
+            "other": 21,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 663,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": 8,
+            "A": "0",
+            "other": "0",
+            "B1": 1
+          },
+          "public": {
+            "B2": 42,
+            "A": "0",
+            "other": 8,
+            "B1": "0"
+          },
+          "school": {
+            "B2": 2,
+            "A": "0",
+            "other": "0",
+            "B1": 1
+          }
+        },
+        "miitNum": "242"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": 14,
+            "other": 30,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 58,
+            "other": 13,
+            "B1": 27
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008360000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 3,
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 17,
+            "other": 9,
+            "B1": 16
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 69,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 5,
+            "other": 52,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "江西省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 383,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 22,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 3,
+            "other": 45,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "241"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": 74,
+            "A": 21,
+            "other": 283,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 2,
+            "A": 10,
+            "other": 17,
+            "B1": "0"
+          },
+          "school": {
+            "B2": 3,
+            "A": "0",
+            "other": 2,
+            "B1": "0"
+          }
+        },
+        "regionId": "100008370000",
+        "mov": {
+          "govOrg": {
+            "B2": 1,
+            "A": 9,
+            "other": "0",
+            "B1": 4
+          },
+          "public": {
+            "B2": "0",
+            "A": 35,
+            "other": 7,
+            "B1": 6
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": 5
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": 2,
+            "other": 194,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 4,
+            "other": 33,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 3,
+            "B1": "0"
+          }
+        },
+        "regionName": "山东省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 726,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 11,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "314"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 3,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 5,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008410000",
+        "mov": {
+          "govOrg": {
+            "B2": 6,
+            "A": 3,
+            "other": 1,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 3,
+            "A": 21,
+            "other": 5,
+            "B1": "0"
+          },
+          "school": {
+            "B2": 3,
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": 12,
+            "other": 67,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 2,
+            "other": 9,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "河南省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": 4,
+            "other": 23,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 6,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 236,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": 5,
+            "other": 14,
+            "B1": 7
+          },
+          "public": {
+            "B2": "0",
+            "A": 15,
+            "other": 16,
+            "B1": 6
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "234"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": 16,
+            "other": 478,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 17,
+            "other": 463,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 3,
+            "B1": "0"
+          }
+        },
+        "regionId": "100008420000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 13,
+            "other": 4,
+            "B1": 6
+          },
+          "public": {
+            "B2": "0",
+            "A": 40,
+            "other": 30,
+            "B1": 5
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": 5,
+            "other": 276,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 11,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 9,
+            "B1": "0"
+          }
+        },
+        "regionName": "湖北省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 63,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 14,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 1465,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": 1
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 2,
+            "B1": 9
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "502"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": 4,
+            "other": 79,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 20,
+            "other": 61,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008430000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 2,
+            "other": 1,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 57,
+            "other": 3,
+            "B1": 14
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 4,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 1,
+            "other": 20,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 2,
+            "B1": "0"
+          }
+        },
+        "regionName": "湖南省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 6,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 1,
+            "other": 4,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 325,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 1,
+            "B1": 1
+          },
+          "public": {
+            "B2": "0",
+            "A": 1,
+            "other": 42,
+            "B1": 1
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "166"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": 7,
+            "other": 50,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 9,
+            "other": 13,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 4,
+            "B1": "0"
+          }
+        },
+        "regionId": "100008440000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 6,
+            "other": 1,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 101,
+            "other": 3,
+            "B1": 28
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": 6,
+            "A": 1,
+            "other": 27,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 37,
+            "B1": 2
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 15,
+            "B1": "0"
+          }
+        },
+        "regionName": "广东省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 312,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 2,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "229"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008450000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 1,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 84,
+            "other": 2,
+            "B1": 72
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 30,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "广西壮族自治区",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 5,
+            "other": 11,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 232,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 23,
+            "A": "0",
+            "other": 4,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "248"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": 4,
+            "other": 4,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 6,
+            "other": 7,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008460000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 5,
+            "other": 3,
+            "B1": 2
+          },
+          "public": {
+            "B2": "0",
+            "A": 70,
+            "other": 1,
+            "B1": 12
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": 2
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": 1,
+            "other": 16,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 2,
+            "other": 3,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 11,
+            "B1": "0"
+          }
+        },
+        "regionName": "海南省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 6,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 1,
+            "other": 2,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 168,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 6,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 4,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "150"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 7,
+            "A": 144,
+            "other": 396,
+            "B1": 55
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008500000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 22,
+            "A": 413,
+            "other": 250,
+            "B1": 78
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 8,
+            "other": 201,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "重庆市",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 2,
+            "other": 219,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 2157,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 13,
+            "A": 57,
+            "other": 272,
+            "B1": 20
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "1776"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008510000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 11,
+            "other": 3,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 75,
+            "other": 333,
+            "B1": 1
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 2,
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 33,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 6,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 5,
+            "B1": "0"
+          }
+        },
+        "regionName": "四川省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 17,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 1,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 2,
+            "B1": "0"
+          }
+        },
+        "count": 520,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 4,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 14,
+            "B1": 13
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "519"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": 12,
+            "other": 61,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 3,
+            "other": 84,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 1,
+            "B1": "0"
+          }
+        },
+        "regionId": "100008520000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 14,
+            "other": 1,
+            "B1": 1
+          },
+          "public": {
+            "B2": "0",
+            "A": 65,
+            "other": 7,
+            "B1": 4
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": 2
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 4,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 16,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "贵州省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 6,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 1,
+            "other": 14,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 309,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 11,
+            "other": 1,
+            "B1": 1
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "163"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": 5,
+            "other": 29,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 1,
+            "A": 14,
+            "other": 18,
+            "B1": 2
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008530000",
+        "mov": {
+          "govOrg": {
+            "B2": 8,
+            "A": 17,
+            "other": 26,
+            "B1": 18
+          },
+          "public": {
+            "B2": 55,
+            "A": 568,
+            "other": 92,
+            "B1": 159
+          },
+          "school": {
+            "B2": 5,
+            "A": "0",
+            "other": 12,
+            "B1": 6
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": 2,
+            "A": 5,
+            "other": 108,
+            "B1": 3
+          },
+          "public": {
+            "B2": 21,
+            "A": 8,
+            "other": 123,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 2,
+            "B1": "0"
+          }
+        },
+        "regionName": "云南省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 55,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 5,
+            "other": 34,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 1501,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": 1,
+            "A": 1,
+            "other": 44,
+            "B1": 3
+          },
+          "public": {
+            "B2": 17,
+            "A": "0",
+            "other": 23,
+            "B1": 11
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "1471"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 2,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008540000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 1,
+            "A": 39,
+            "other": 9,
+            "B1": 3
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 1,
+            "other": 16,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "西藏自治区",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 71,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "69"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 9,
+            "other": 37,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008610000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 47,
+            "other": 1,
+            "B1": 1
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 1,
+            "other": 5,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "陕西省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 124,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 23,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "78"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": 2,
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 27,
+            "other": 38,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008620000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 48,
+            "other": 2,
+            "B1": 1
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 5,
+            "other": 51,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "甘肃省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 4,
+            "other": 7,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 197,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 12,
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "141"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": 53,
+            "A": 75,
+            "other": 405,
+            "B1": 21
+          },
+          "public": {
+            "B2": 76,
+            "A": 355,
+            "other": 476,
+            "B1": 58
+          },
+          "school": {
+            "B2": 4,
+            "A": "0",
+            "other": 1,
+            "B1": 3
+          }
+        },
+        "regionId": "100008630000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 8,
+            "other": 1,
+            "B1": 6
+          },
+          "public": {
+            "B2": "0",
+            "A": 41,
+            "other": 2,
+            "B1": 3
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": 4
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 4,
+            "A": 1,
+            "other": 11,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 13,
+            "B1": "0"
+          }
+        },
+        "regionName": "青海省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 28,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 2,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 2,
+            "B1": "0"
+          }
+        },
+        "count": 1710,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": 23,
+            "A": 2,
+            "other": 4,
+            "B1": 6
+          },
+          "public": {
+            "B2": 3,
+            "A": 3,
+            "other": 5,
+            "B1": 4
+          },
+          "school": {
+            "B2": 1,
+            "A": "0",
+            "other": "0",
+            "B1": 6
+          }
+        },
+        "miitNum": "183"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": 14,
+            "other": 33,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 21,
+            "other": 164,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008640000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 6,
+            "other": "0",
+            "B1": 1
+          },
+          "public": {
+            "B2": 1,
+            "A": 89,
+            "other": 5,
+            "B1": 19
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 9,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 4,
+            "other": 16,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "宁夏回族自治区",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": 5,
+            "other": 42,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 7,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 1,
+            "B1": "0"
+          }
+        },
+        "count": 594,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 52,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 4,
+            "A": 2,
+            "other": 88,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 11,
+            "B1": "0"
+          }
+        },
+        "miitNum": "368"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": 3,
+            "other": 391,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 12,
+            "other": 10,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 4,
+            "B1": 2
+          }
+        },
+        "regionId": "100008650000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 1,
+            "B1": 11
+          },
+          "public": {
+            "B2": 12,
+            "A": 367,
+            "other": 664,
+            "B1": 24
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 6,
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "在售",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 4,
+            "other": 39,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 3,
+            "B1": "0"
+          }
+        },
+        "regionName": "新疆维吾尔自治区",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 9,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 2,
+            "B1": "0"
+          }
+        },
+        "count": 1614,
+        "salesStatus": "1000",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 16,
+            "B1": 1
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 28,
+            "B1": 5
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": "1199"
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": 2,
+            "other": 19,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 1,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 1,
+            "B1": "0"
+          }
+        },
+        "regionId": "100008110000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 6,
+            "other": 89,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 1,
+            "A": 88,
+            "other": 217,
+            "B1": 7
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 15,
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 10,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 82,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 3,
+            "B1": "0"
+          }
+        },
+        "regionName": "北京市",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 4,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 569,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 2,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 21,
+            "B1": 1
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 238,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 28,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 4,
+            "B1": "0"
+          }
+        },
+        "regionId": "100008120000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 2,
+            "A": 72,
+            "other": 306,
+            "B1": 2
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 35,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 140,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 2,
+            "B1": "0"
+          }
+        },
+        "regionName": "天津市",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 15,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 913,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 18,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 3,
+            "A": "0",
+            "other": 44,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 4,
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 20,
+            "other": 1586,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008130000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 112,
+            "other": 1180,
+            "B1": 28
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 1,
+            "other": 116,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "河北省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 3187,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 35,
+            "other": 71,
+            "B1": 38
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": 1,
+            "other": 360,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 1,
+            "other": 112,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 5,
+            "B1": "0"
+          }
+        },
+        "regionId": "100008140000",
+        "mov": {
+          "govOrg": {
+            "B2": 2,
+            "A": 14,
+            "other": 348,
+            "B1": 1
+          },
+          "public": {
+            "B2": 4,
+            "A": 140,
+            "other": 1474,
+            "B1": 47
+          },
+          "school": {
+            "B2": 2,
+            "A": 1,
+            "other": 203,
+            "B1": 1
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": 2,
+            "other": 17,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 62,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 2,
+            "B1": "0"
+          }
+        },
+        "regionName": "山西省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 3,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 3,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 2853,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 9,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 39,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008150000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 13,
+            "other": 2,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 3,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "内蒙古自治区",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 28,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 1,
+            "other": 9,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 6,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 58,
+            "other": 1214,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008210000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 11,
+            "B1": 5
+          },
+          "public": {
+            "B2": 10,
+            "A": 329,
+            "other": 2024,
+            "B1": 148
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 3,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 10,
+            "other": 1132,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "辽宁省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 3,
+            "other": 51,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 5438,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": 2
+          },
+          "public": {
+            "B2": 1,
+            "A": 91,
+            "other": 297,
+            "B1": 43
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 18,
+            "other": 535,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008220000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 2,
+            "other": 2,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 13,
+            "A": 1011,
+            "other": 4167,
+            "B1": 54
+          },
+          "school": {
+            "B2": 19,
+            "A": 2,
+            "other": 233,
+            "B1": 1
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 7,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 12,
+            "other": 657,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 12,
+            "B1": "0"
+          }
+        },
+        "regionName": "吉林省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 65,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 7472,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 5,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 1,
+            "A": "0",
+            "other": 642,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 14,
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 3,
+            "other": 55,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008230000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 1,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 1,
+            "A": 114,
+            "other": 1678,
+            "B1": 38
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 88,
+            "B1": 1
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 29,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 352,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 25,
+            "B1": "0"
+          }
+        },
+        "regionName": "黑龙江省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 2385,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 116,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 4,
+            "A": 8,
+            "other": 70,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008310000",
+        "mov": {
+          "govOrg": {
+            "B2": 1,
+            "A": 2,
+            "other": 373,
+            "B1": 2
+          },
+          "public": {
+            "B2": 3,
+            "A": 150,
+            "other": 762,
+            "B1": 59
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 108,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 14,
+            "A": 1,
+            "other": 168,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 19,
+            "B1": "0"
+          }
+        },
+        "regionName": "上海市",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 539,
+            "B1": 1
+          },
+          "public": {
+            "B2": 3,
+            "A": "0",
+            "other": 238,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 3341,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 201,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 3,
+            "other": 486,
+            "B1": 10
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": 26,
+            "A": 3,
+            "other": 31,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 5,
+            "A": 6,
+            "other": 69,
+            "B1": 4
+          },
+          "school": {
+            "B2": 4,
+            "A": "0",
+            "other": 39,
+            "B1": "0"
+          }
+        },
+        "regionId": "100008320000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 58,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 94,
+            "other": 130,
+            "B1": 20
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 3,
+            "B1": 1
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": 2,
+            "A": "0",
+            "other": 83,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 4,
+            "A": 2,
+            "other": 199,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 4,
+            "B1": "0"
+          }
+        },
+        "regionName": "江苏省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 178,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 1,
+            "A": "0",
+            "other": 158,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 3,
+            "B1": "0"
+          }
+        },
+        "count": 2565,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": 12,
+            "A": "0",
+            "other": 612,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 13,
+            "A": "0",
+            "other": 788,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 13,
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 118,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008330000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 5,
+            "A": 126,
+            "other": 1313,
+            "B1": 27
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 1,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 1,
+            "other": 1405,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 1,
+            "B1": "0"
+          }
+        },
+        "regionName": "浙江省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 326,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 4936,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 1613,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": 1,
+            "other": 68,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 4,
+            "other": 23,
+            "B1": 3
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 6,
+            "B1": "0"
+          }
+        },
+        "regionId": "100008340000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 6,
+            "other": 231,
+            "B1": 6
+          },
+          "public": {
+            "B2": "0",
+            "A": 134,
+            "other": 381,
+            "B1": 37
+          },
+          "school": {
+            "B2": "0",
+            "A": 2,
+            "other": 27,
+            "B1": 3
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 10,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 1,
+            "other": 79,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 20,
+            "B1": "0"
+          }
+        },
+        "regionName": "安徽省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 1058,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 16,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 4,
+            "other": 279,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 4,
+            "B1": "0"
+          }
+        },
+        "regionId": "100008350000",
+        "mov": {
+          "govOrg": {
+            "B2": 3,
+            "A": 3,
+            "other": "0",
+            "B1": 6
+          },
+          "public": {
+            "B2": "0",
+            "A": 139,
+            "other": 349,
+            "B1": 52
+          },
+          "school": {
+            "B2": 1,
+            "A": 2,
+            "other": 28,
+            "B1": 2
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 1,
+            "other": 20,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 5,
+            "B1": "0"
+          }
+        },
+        "regionName": "福建省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 1,
+            "A": 1,
+            "other": 113,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 1365,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": 9,
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 20,
+            "A": "0",
+            "other": 319,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 4,
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": 26,
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 58,
+            "other": 193,
+            "B1": 8
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 8,
+            "B1": "0"
+          }
+        },
+        "regionId": "100008360000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 6,
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 114,
+            "other": 258,
+            "B1": 31
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": 6,
+            "other": 1,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 1,
+            "other": 326,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "江西省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 126,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 1306,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 144,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": 1,
+            "A": 7,
+            "other": 949,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 1,
+            "A": "0",
+            "other": 361,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 5,
+            "B1": "0"
+          }
+        },
+        "regionId": "100008370000",
+        "mov": {
+          "govOrg": {
+            "B2": 1,
+            "A": 49,
+            "other": 508,
+            "B1": 3
+          },
+          "public": {
+            "B2": 2,
+            "A": 125,
+            "other": 1498,
+            "B1": 53
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 70,
+            "B1": 6
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 234,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 776,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 5,
+            "B1": "0"
+          }
+        },
+        "regionName": "山东省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 168,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 145,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 5108,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 19,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 2,
+            "A": "0",
+            "other": 119,
+            "B1": 1
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 571,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 12,
+            "A": "0",
+            "other": 898,
+            "B1": 1
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008410000",
+        "mov": {
+          "govOrg": {
+            "B2": 2,
+            "A": "0",
+            "other": 43,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 32,
+            "A": 117,
+            "other": 997,
+            "B1": 25
+          },
+          "school": {
+            "B2": 2,
+            "A": "0",
+            "other": 6,
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": 1,
+            "other": 69,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 18,
+            "other": 520,
+            "B1": 1
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "河南省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 8,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 4,
+            "other": 157,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 4173,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": 6,
+            "other": 38,
+            "B1": 13
+          },
+          "public": {
+            "B2": 7,
+            "A": 64,
+            "other": 494,
+            "B1": 66
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 1,
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": 3,
+            "other": 2755,
+            "B1": 2
+          },
+          "public": {
+            "B2": "0",
+            "A": 7,
+            "other": 1520,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 10,
+            "B1": "0"
+          }
+        },
+        "regionId": "100008420000",
+        "mov": {
+          "govOrg": {
+            "B2": 8,
+            "A": 10,
+            "other": 679,
+            "B1": 6
+          },
+          "public": {
+            "B2": 3,
+            "A": 134,
+            "other": 647,
+            "B1": 31
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 47,
+            "B1": 5
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 761,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 444,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 56,
+            "B1": "0"
+          }
+        },
+        "regionName": "湖北省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 486,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 252,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 1,
+            "B1": "0"
+          }
+        },
+        "count": 9096,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": 2,
+            "A": "0",
+            "other": 559,
+            "B1": 3
+          },
+          "public": {
+            "B2": "0",
+            "A": 3,
+            "other": 636,
+            "B1": 18
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 8,
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 228,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 25,
+            "other": 1124,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008430000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 1,
+            "other": 544,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 168,
+            "other": 1344,
+            "B1": 50
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 111,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 3,
+            "other": 796,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "湖南省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 53,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 1,
+            "other": 283,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 5079,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 99,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 11,
+            "other": 237,
+            "B1": 1
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 258,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 1,
+            "other": 1405,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 26,
+            "B1": "0"
+          }
+        },
+        "regionId": "100008440000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 37,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 157,
+            "other": 2371,
+            "B1": 22
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 28,
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": 1,
+            "A": "0",
+            "other": 240,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 1835,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 110,
+            "B1": "0"
+          }
+        },
+        "regionName": "广东省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 7829,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 81,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 1217,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 40,
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008450000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 3,
+            "A": 145,
+            "other": 727,
+            "B1": 26
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 505,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "广西壮族自治区",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 1191,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 3264,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 21,
+            "A": "0",
+            "other": 646,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 11,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 36,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 3,
+            "B1": "0"
+          }
+        },
+        "regionId": "100008460000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 32,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 13,
+            "other": 157,
+            "B1": 6
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 7,
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 27,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 22,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 15,
+            "B1": "0"
+          }
+        },
+        "regionName": "海南省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 13,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 20,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 549,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 77,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 104,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 6,
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 38,
+            "other": 2600,
+            "B1": 3
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008500000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 80,
+            "A": 408,
+            "other": 2069,
+            "B1": 75
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 4,
+            "other": 926,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "重庆市",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 4,
+            "other": 2342,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 9479,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 18,
+            "A": 33,
+            "other": 858,
+            "B1": 21
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008510000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 2,
+            "other": 89,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 132,
+            "other": 1260,
+            "B1": 26
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 17,
+            "B1": 1
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 233,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 421,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 33,
+            "B1": "0"
+          }
+        },
+        "regionName": "四川省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 16,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 55,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 2448,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 43,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 103,
+            "B1": 10
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 7,
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 589,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 4447,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 32,
+            "B1": "0"
+          }
+        },
+        "regionId": "100008520000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 47,
+            "other": 685,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 48,
+            "other": 331,
+            "B1": 9
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 28,
+            "B1": 1
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 14,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 151,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 2,
+            "B1": "0"
+          }
+        },
+        "regionName": "贵州省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 46,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 133,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 4,
+            "B1": "0"
+          }
+        },
+        "count": 7293,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": 1,
+            "other": 96,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 25,
+            "other": 546,
+            "B1": 3
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 55,
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": 12,
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 5,
+            "other": 17,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008530000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 34,
+            "other": 248,
+            "B1": 5
+          },
+          "public": {
+            "B2": 62,
+            "A": 779,
+            "other": 2112,
+            "B1": 192
+          },
+          "school": {
+            "B2": 4,
+            "A": "0",
+            "other": 94,
+            "B1": 4
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": 5,
+            "A": 1,
+            "other": 148,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 20,
+            "A": 18,
+            "other": 587,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 3,
+            "B1": "0"
+          }
+        },
+        "regionName": "云南省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 97,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 1,
+            "A": "0",
+            "other": 196,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 3,
+            "B1": "0"
+          }
+        },
+        "count": 5431,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": 3,
+            "A": "0",
+            "other": 174,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 46,
+            "A": 15,
+            "other": 508,
+            "B1": 14
+          },
+          "school": {
+            "B2": 1,
+            "A": "0",
+            "other": 23,
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 1,
+            "other": 20,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008540000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 1,
+            "A": 47,
+            "other": 120,
+            "B1": 14
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 106,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "西藏自治区",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 24,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 333,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 713,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008610000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 211,
+            "other": 1044,
+            "B1": 24
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 508,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "陕西省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 454,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 3694,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 2,
+            "other": 738,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 7,
+            "other": 193,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008620000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 9,
+            "A": 189,
+            "other": 355,
+            "B1": 48
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 39,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "甘肃省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 267,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 1252,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": 11,
+            "A": "0",
+            "other": 134,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": 18,
+            "A": 25,
+            "other": 251,
+            "B1": 36
+          },
+          "public": {
+            "B2": 14,
+            "A": 130,
+            "other": 739,
+            "B1": 61
+          },
+          "school": {
+            "B2": 4,
+            "A": "0",
+            "other": 29,
+            "B1": 6
+          }
+        },
+        "regionId": "100008630000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 2,
+            "other": 55,
+            "B1": 15
+          },
+          "public": {
+            "B2": "0",
+            "A": 90,
+            "other": 131,
+            "B1": 25
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 7,
+            "B1": 2
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 18,
+            "B1": "0"
+          },
+          "public": {
+            "B2": 1,
+            "A": "0",
+            "other": 87,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 1,
+            "B1": "0"
+          }
+        },
+        "regionName": "青海省",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 46,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 16,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "count": 2226,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": 5,
+            "A": 3,
+            "other": 212,
+            "B1": 1
+          },
+          "public": {
+            "B2": "0",
+            "A": 3,
+            "other": 171,
+            "B1": 5
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 16,
+            "B1": 1
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 122,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 9,
+            "other": 121,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionId": "100008640000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": 1,
+            "other": 54,
+            "B1": 1
+          },
+          "public": {
+            "B2": "0",
+            "A": 104,
+            "other": 205,
+            "B1": 7
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 4,
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 37,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 1,
+            "other": 55,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "宁夏回族自治区",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 19,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 15,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 1,
+            "B1": "0"
+          }
+        },
+        "count": 933,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 78,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 98,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 1,
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      },
+      {
+        "cusNum": "0",
+        "other": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 9,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": 8,
+            "other": 214,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 1,
+            "B1": 2
+          }
+        },
+        "regionId": "100008650000",
+        "mov": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": 6
+          },
+          "public": {
+            "B2": "0",
+            "A": 276,
+            "other": 1661,
+            "B1": 102
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 52,
+            "B1": "0"
+          }
+        },
+        "salesStatusText": "存量",
+        "broadband": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 2,
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 297,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          }
+        },
+        "regionName": "新疆维吾尔自治区",
+        "nonMovFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": "0",
+            "B1": "0"
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 192,
+            "B1": "0"
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 2,
+            "B1": "0"
+          }
+        },
+        "count": 3312,
+        "salesStatus": "1200",
+        "movFixed": {
+          "govOrg": {
+            "B2": "0",
+            "A": "0",
+            "other": 50,
+            "B1": 2
+          },
+          "public": {
+            "B2": "0",
+            "A": "0",
+            "other": 431,
+            "B1": 2
+          },
+          "school": {
+            "B2": "0",
+            "A": "0",
+            "other": 3,
+            "B1": "0"
+          }
+        },
+        "miitNum": ""
+      }
+    ]
+  }
+}

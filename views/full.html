@@ -1,0 +1,98 @@
+<html>
+<head>
+    <title>SlideBar</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<style type="text/css">
+    #menuBar {
+        position: absolute;
+        left: -200px;
+        width: 226px;
+        top: 0px;
+        clip: rect()
+    }
+
+    #glider {
+        position: absolute;
+        left: 210px;
+        top: 0px;
+        width: 80px
+    }
+
+    .glideText {
+        font-size: 18px;
+        color: #E2E2E2;
+        text-decoration: none;
+        font-family: Verdana, Arial, Helvetica, sans-serif
+    }
+
+    #glidetextLink {
+        background: url(images/sidebar_icon.png) 0 0 no-repeat;
+        width: 26px;
+        height: 80px;
+        cursor: pointer;
+    }
+</style>
+<script language="JavaScript">
+    var pee = -200
+    var drec = 40;
+    var speed = 20;
+    var l = pee;
+
+    //This is the function that closes the menu
+    function Proj7GlideBack() {
+        l += drec;
+        document.getElementById('menuBar').style.left = l + 'px';
+        if (l < 0) {
+            setTimeout('Proj7GlideBack()', speed);//setTimeout方法用于在指定的毫秒数后调用函数或计算表达式
+        } else {
+            document.getElementById('glidetextLink').onclick = moveIn;
+        }
+    }
+
+    //This is the function that opens the menu
+    function Proj7GlideOut() {
+        l -= drec;
+        document.getElementById('menuBar').style.left = l + 'px';
+        if (l > pee) {
+            setTimeout('Proj7GlideOut()', speed);
+        } else {
+            document.getElementById('glidetextLink').onclick = moveOut;
+        }
+    }
+
+    function moveIn() {
+        Proj7GlideOut();
+        return false;
+    }
+
+    function moveOut() {
+        Proj7GlideBack();
+        return false;
+    }
+
+    <!--NNresizeFix Reloads the page to workaround a Netscape Bug-->
+    if (document.layers) {
+        origWidth = innerWidth;//innerWidth - 浏览器窗口(浏览器的视口，不包括工具栏和滚动条)的内部宽度
+        origHeight = innerHeight;
+    }
+
+    function reDo() {
+        if (innerWidth != origWidth || innerHeight != origHeight)
+            location.reload();
+    }
+
+    if (document.layers)
+        onresize = reDo;
+</script>
+<div ID="menuBar" style="">
+    <div style="width:226px; height:80px;background: #fff000">test</div>
+    <span ID="glider" style="">
+           <div id="glidetextLink" href="javascript:;" class="glideText"
+                onClick="Proj7GlideBack(); return false" onFocus="if(this.blur)this.blur()">
+           </div>
+    </span>
+</div>
+</body>
+</html>

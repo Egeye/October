@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html class="homeBody">
+<head>
+    <meta charset="UTF-8">
+    <title>Octavius</title>
+    <link rel="stylesheet" href="../dist/jside-menu/css/jside-skins.css"/>
+    <link rel="stylesheet" href="../dist/material-design/css/material-design-iconic-font.css"/>
+
+    <link rel="stylesheet" href="../styles/main.css"/>
+    <link rel="stylesheet" href="../styles/home.css"/>
+
+    <script src="../dist/vue/vue.js"></script>
+
+    <link href="../dist/element-ui/index.css" rel="stylesheet">
+    <script src="../dist/element-ui/index.js"></script>
+
+    <script src="../scripts/common/baiDuStatistics.js"></script>
+</head>
+<body>
+
+<header class="intro">
+<!--    <h1>Octavius</h1>-->
+    <p><i class="zmdi zmdi-home"></i> Home</p>
+</header>
+<main id="homeApp">
+    <article>
+        <h2 class="home-text-center"></h2>
+        <p class="home-text-center"></p>
+
+        <el-card class="box-card">
+            <el-calendar v-model="calendarModel"></el-calendar>
+        </el-card>
+
+        <pre>第一张图</pre>
+
+        <section class="parallax-wrapper-2">
+            <figure class="parallax-4"></figure>
+        </section>
+        <pre>又是一张图</pre>
+        <section class="parallax-wrapper-2">
+            <figure class="parallax-5"></figure>
+        </section>
+
+        <el-divider></el-divider>
+        <div>
+            <div style="margin-bottom: 15px;"><span style="font-weight: bold;">五十音</span></div>
+            <el-table stripe border highlight-current-row show-header>
+                <el-table-column prop="date" label=" "></el-table-column>
+                <el-table-column prop="date" label="あ段"></el-table-column>
+                <el-table-column prop="date" label="い段"></el-table-column>
+                <el-table-column prop="date" label="う段"></el-table-column>
+                <el-table-column prop="date" label="え段"></el-table-column>
+                <el-table-column prop="date" label="お段"></el-table-column>
+            </el-table>
+
+            <table log-set-param="table_view" width="658" class="table-view log-set-param"><tbody><tr><td width="97" align="left" valign="middle"></td><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>あ段</b></div>
+            </td><td width="122" align="left" valign="center"><div class="para" label-module="para"><b>い段</b></div>
+            </td><td width="122" align="left" valign="center"><div class="para" label-module="para"><b>う段</b></div>
+            </td><td width="123" align="left" valign="center"><div class="para" label-module="para"><b>え段</b></div>
+            </td><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>お段</b></div>
+            </td></tr><tr><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>あ行</b></div>
+            </td><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>あ</b></div>
+            </td><td width="122" align="left" valign="center"><div class="para" label-module="para"><b>い</b></div>
+            </td><td width="122" align="left" valign="center"><div class="para" label-module="para"><b>う</b></div>
+            </td><td width="123" align="left" valign="center"><div class="para" label-module="para"><b>え</b></div>
+            </td><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>お</b></div>
+            </td></tr><tr><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>か行</b></div>
+            </td><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>か</b></div>
+            </td><td width="122" align="left" valign="center"><div class="para" label-module="para"><b>き</b></div>
+            </td><td width="122" align="left" valign="center"><div class="para" label-module="para"><b>く</b></div>
+            </td><td width="123" align="left" valign="center"><div class="para" label-module="para"><b>け</b></div>
+            </td><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>こ</b></div>
+            </td></tr><tr><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>さ行</b></div>
+            </td><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>さ</b></div>
+            </td><td width="122" align="left" valign="center"><div class="para" label-module="para"><b>し</b></div>
+            </td><td width="122" align="left" valign="center"><div class="para" label-module="para"><b>す</b></div>
+            </td><td width="123" align="left" valign="center"><div class="para" label-module="para"><b>せ</b></div>
+            </td><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>そ</b></div>
+            </td></tr><tr><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>た行</b></div>
+            </td><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>た</b></div>
+            </td><td width="122" align="left" valign="center"><div class="para" label-module="para"><b>ち</b></div>
+            </td><td width="122" align="left" valign="center"><div class="para" label-module="para"><b>つ</b></div>
+            </td><td width="123" align="left" valign="center"><div class="para" label-module="para"><b>て</b></div>
+            </td><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>と</b></div>
+            </td></tr><tr><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>な行</b></div>
+            </td><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>な</b></div>
+            </td><td width="122" align="left" valign="center"><div class="para" label-module="para"><b>に</b></div>
+            </td><td width="122" align="left" valign="center"><div class="para" label-module="para"><b>ぬ</b></div>
+            </td><td width="123" align="left" valign="center"><div class="para" label-module="para"><b>ね</b></div>
+            </td><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>の</b></div>
+            </td></tr><tr><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>は行</b></div>
+            </td><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>は</b></div>
+            </td><td width="122" align="left" valign="center"><div class="para" label-module="para"><b>ひ</b></div>
+            </td><td width="122" align="left" valign="center"><div class="para" label-module="para"><b>ふ</b></div>
+            </td><td width="123" align="left" valign="center"><div class="para" label-module="para"><b>へ</b></div>
+            </td><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>ほ</b></div>
+            </td></tr><tr><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>ま行</b></div>
+            </td><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>ま</b></div>
+            </td><td width="122" align="left" valign="center"><div class="para" label-module="para"><b>み</b></div>
+            </td><td width="122" align="left" valign="center"><div class="para" label-module="para"><b>む</b></div>
+            </td><td width="123" align="left" valign="center"><div class="para" label-module="para"><b>め</b></div>
+            </td><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>も</b></div>
+            </td></tr><tr><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>や行</b></div>
+            </td><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>や</b></div>
+            </td><td width="122" align="left" valign="center"><div class="para" label-module="para"><b>（い）</b></div>
+            </td><td width="122" align="left" valign="center"><div class="para" label-module="para"><b>ゆ</b></div>
+            </td><td width="123" align="left" valign="center"><div class="para" label-module="para"><b>（え）</b></div>
+            </td><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>よ</b></div>
+            </td></tr><tr><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>ら行</b></div>
+            </td><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>ら</b></div>
+            </td><td width="122" align="left" valign="center"><div class="para" label-module="para"><b>り</b></div>
+            </td><td width="122" align="left" valign="center"><div class="para" label-module="para"><b>る</b></div>
+            </td><td width="123" align="left" valign="center"><div class="para" label-module="para"><b>れ</b></div>
+            </td><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>ろ</b></div>
+            </td></tr><tr><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>わ行</b></div>
+            </td><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>わ</b></div>
+            </td><td width="122" align="left" valign="center"><div class="para" label-module="para"><b>（い）</b></div>
+            </td><td width="122" align="left" valign="center"><div class="para" label-module="para"><b>（う）</b></div>
+            </td><td width="123" align="left" valign="center"><div class="para" label-module="para"><b>（え）</b></div>
+            </td><td width="97" align="left" valign="center"><div class="para" label-module="para"><b>を</b></div>
+            </td></tr></tbody></table>
+        </div>
+    </article>
+</main>
+
+<script src="../dist/jquery/js/jquery.js"></script>
+<script src="../dist/jquery/js/jquery.parallax.js"></script>
+</body>
+</html>

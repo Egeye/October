@@ -1,0 +1,112 @@
+.box-circle {
+    /*width: 600px;*/
+    /*height: 600px;*/
+    box-sizing: border-box;
+    text-align: center;
+    padding: 100px;
+    /*float: left;*/
+}
+
+
+.box-circle ul, li {
+    margin: 0;
+    /*list-style-type: none;*/
+    padding: 0;
+}
+
+.box-circle ul {
+    /*width: 400px;*/
+    /*display: inline;*/
+    /*height: 400px;*/
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+}
+
+.box-circle li {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    color: #409EFF;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+.box-circle li:nth-of-type(2) {
+    transform: rotate(30deg);
+    transform-origin: 20px 220px;
+}
+
+.box-circle li:nth-of-type(3) {
+    transform: rotate(60deg);
+    transform-origin: 20px 220px;
+}
+
+.box-circle li:nth-of-type(4) {
+    transform: rotate(90deg);
+    transform-origin: 20px 220px;
+}
+
+.box-circle li:nth-of-type(5) {
+    transform: rotate(120deg);
+    transform-origin: 20px 220px;
+}
+
+.box-circle li:nth-of-type(6) {
+    transform: rotate(150deg);
+    transform-origin: 20px 220px;
+}
+
+.box-circle li:nth-of-type(7) {
+    transform: rotate(180deg);
+    transform-origin: 20px 220px;
+}
+
+.box-circle li:nth-of-type(8) {
+    transform: rotate(210deg);
+    transform-origin: 20px 220px;
+}
+
+.box-circle li:nth-of-type(9) {
+    transform: rotate(240deg);
+    transform-origin: 20px 220px;
+}
+
+.box-circle li:nth-of-type(10) {
+    transform: rotate(270deg);
+    transform-origin: 20px 220px;
+}
+
+.box-circle li:nth-of-type(11) {
+    transform: rotate(300deg);
+    transform-origin: 20px 220px;
+}
+
+.box-circle li:nth-of-type(12) {
+    transform: rotate(330deg);
+    transform-origin: 20px 220px;
+}
+
+
+.dialog-view {
+    /*width: 700px;*/
+    /*height: 700px;*/
+}
+
+#clockApp .el-dialog {
+    margin: 0 auto 0 !important;
+    margin-top: 1vh !important;
+}
+
+#clockApp {
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif !important;
+}
+
+.drawer-padding {
+    padding: 0 20px 0;
+}
